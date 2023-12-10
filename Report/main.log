@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  10 DEC 2023 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  10 DEC 2023 16:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,7 +473,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box57
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -494,6 +494,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
+
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
@@ -555,6 +556,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 45.
+(./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -574,6 +576,7 @@ LaTeX Info: Redefining \showhyphens on input line 45.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
@@ -606,9 +609,6 @@ s
  []
 
 
-LaTeX Warning: Reference `sec:data' on page 1 undefined on input line 86.
-
-
 Underfull \hbox (badness 4366) in paragraph at lines 88--89
 []\T1/ptm/m/n/10.95 (+20) Furthermore, we built the vo-cab-u-lary of
  []
@@ -631,13 +631,10 @@ Underfull \hbox (badness 5696) in paragraph at lines 94--95
  []
 
 
-LaTeX Warning: Reference `fig:Models' on page 1 undefined on input line 102.
-
-
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./baseline_model.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<baseline_model.pdf, id=5, 525.965pt x 518.93875pt>
+<baseline_model.pdf, id=35, 525.965pt x 518.93875pt>
 File: baseline_model.pdf Graphic file (type pdf)
 <use baseline_model.pdf>
 Package pdftex.def Info: baseline_model.pdf  used on input line 108.
@@ -646,7 +643,7 @@ Package pdftex.def Info: baseline_model.pdf  used on input line 108.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./model_1.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<model_1.pdf, id=6, 525.965pt x 634.37pt>
+<model_1.pdf, id=36, 525.965pt x 634.37pt>
 File: model_1.pdf Graphic file (type pdf)
 <use model_1.pdf>
 Package pdftex.def Info: model_1.pdf  used on input line 113.
@@ -655,7 +652,7 @@ Package pdftex.def Info: model_1.pdf  used on input line 113.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./model_2.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<model_2.pdf, id=7, 525.965pt x 634.37pt>
+<model_2.pdf, id=37, 525.965pt x 634.37pt>
 File: model_2.pdf Graphic file (type pdf)
 <use model_2.pdf>
 Package pdftex.def Info: model_2.pdf  used on input line 118.
@@ -676,26 +673,14 @@ n: multiple pdfs with page group included in a single page
 >] [3
 
 ] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3834AAA686744AD97004C5DAF0D55FBE;786.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3834AAA686744AD97004C5DAF0D55FBE;786.
  ) 
 Here is how much of TeX's memory you used:
- 16531 strings out of 476025
- 265234 string characters out of 5790016
+ 16546 strings out of 476025
+ 265386 string characters out of 5790016
  1872388 words of memory out of 5000000
- 36575 multiletter control sequences out of 15000+600000
+ 36584 multiletter control sequences out of 15000+600000
  559922 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,10n,90p,1002b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -708,10 +693,10 @@ al/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 179413 bytes).
+Output written on main.pdf (3 pages, 179863 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
- 51728 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 51784 words of extra memory for PDF output out of 61914 (max. 10000000)
 
